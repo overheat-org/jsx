@@ -19,7 +19,7 @@ function jsx(type, _props) {
     return transformElement({ type, props, children });
 }
 
-function createElement(type, props, children: unknown[]) {
+function createElement(type, props,... children: unknown[]) {
     children = children.map(c => {
         switch (typeof c) {
             case 'object':
