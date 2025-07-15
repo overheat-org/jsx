@@ -1,0 +1,7 @@
+{
+	"name": "jsx-oh",
+	"private": true,
+	"workspaces": [
+		"packages/discord"
+	]
+}
